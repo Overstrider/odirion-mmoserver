@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<npc name="Gordon [Slayer Blacksmith]" script="gordon.lua" walkinterval="2000" floorchange="0">
-<health now="100" max="100"/>
-<look type="601" head="41" body="94" legs="79" feet="76" addons="0"/>
-<parameters>
-    <parameter key="message_greet" value="Hi Stranger. I upgrade knight armor and knight legs to elite and warlord. Say {elite knight armor} to upgrade your knight armor, {elite knight legs} to upgrade your knight legs, {warlord knight armor} to upgrade your elite knight armor, {warlord knight legs} to upgrade your elite knight legs." />
-</parameters>
-</npc>

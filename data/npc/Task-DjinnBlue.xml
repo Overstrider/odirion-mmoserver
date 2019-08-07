@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<npc name="Hanthal [Blue Djinn Guild]" script="Umar.lua" walkinterval="2000" floorchange="0">
-<health now="100" max="100"/>
-<look type="80" head="115" body="117" legs="97" feet="116" addons="0"/>
-<parameters>
-    <parameter key="message_greet" value="Hello |PLAYERNAME|. You need sell your items? We buy your items! But, you need make an {task} to join the guild. Say {reward} if done." />
-</parameters>
-</npc>

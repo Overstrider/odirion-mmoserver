@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<npc name="Priest Domus [Inquisitor Guild]" script="inquisitor-task.lua" walkinterval="0" floorchange="0">
-<health now="100" max="100"/>
-<look type="602" head="78" body="52" legs="64" feet="52"/>
-<parameters>
-    <parameter key="message_greet" value="GOD bless you, |PLAYERNAME|. Are you willing to {save the world?}? If you help the world, {God help} you too." />
-</parameters>
-</npc>
