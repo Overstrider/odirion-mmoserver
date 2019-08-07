@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Kel'Malone" nameDescription="[Hunter Seller]" script="KelMalone.lua" walkinterval="0" skull="none" floorchange="0">
+<health now="100" max="100"/>
+<look type="479" head="57" body="79" legs="95" feet="98" addons="0"/>
+	<parameters>
+        <parameter key="message_greet" value="I exchange Bow for Burst Bow say {enchant bow}"/>
+	</parameters>
+</npc>

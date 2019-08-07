@@ -1,0 +1,349 @@
+window-size: 600 480
+window-pos: 383 144
+window-maximized: true
+uuid: kc8CfDnezlxLZ0nf6nw7oB+JgAQ=
+locale: en
+fullscreen: false
+foregroundFrameRate: 8
+hotkeyDelay: 50
+painterEngine: 0
+showPing: false
+smartWalk: false
+vsync: false
+classicControl: true
+showFps: false
+showLevelsInConsole: true
+ambientLight: 0
+showPrivateMessagesInConsole: true
+displayNames: true
+showTimestampsInConsole: true
+showLeftPanel: true
+showInfoMessagesInConsole: true
+showPrivateMessagesOnScreen: true
+displayMana: true
+displayHealth: true
+enableAudio: false
+Circle: false
+musicSoundVolume: 0
+dashWalk: false
+turnDelay: 50
+dontStretchShrink: false
+enableMusicSound: false
+displayText: true
+enableLights: false
+ignoreControl: false
+backgroundFrameRate: 39
+defaultPanel: right
+showExtraRightPanel: true
+showEventMessagesInConsole: true
+autoChaseOverride: true
+showStatusMessagesInConsole: true
+report-uuid: d2e17999-0fa1-4cca-8bdf-e0b24d205738
+host: 34.67.85.179
+port: 7171
+client-version: 860
+staylogged: false
+motd: 3
+last-used-character: [ADM] Loldinis
+last-used-world: Odirion
+VipList:
+  VipInfo:
+UseIgnoreList: false
+UseWhiteList: false
+IgnorePrivateMessages: false
+IgnoreYelling: false
+autologin: true
+MiniWindows:
+  battleWindow:
+    index: 3
+    parentId: gameRightPanel
+    closed: false
+  skillWindow:
+    index: 1
+    parentId: gameRightPanel
+    closed: false
+  vipWindow:
+    index: 2
+    parentId: gameRightPanel
+    closed: true
+  inventoryWindow:
+    minimized: false
+    index: 2
+    parentId: gameExtraRightPanel
+    closed: false
+  healthInfoWindow:
+    index: 1
+    parentId: gameExtraRightPanel
+    closed: false
+  minimapWindow:
+    index: 4
+    parentId: gameRightPanel
+    closed: false
+game_interface:
+  splitterMarginBottom: 130
+game_console:
+  messageHistory:
+    53: /reload npc
+    43: /i 2344
+    51: /goto gabel
+    41: /goto malor
+    47: /c mlkdoido
+    37: /reload npc
+    45: /goto the orc king
+    35: /goto gabel
+    49: /goto malor
+    39: exevo gran mas vis
+    29: /attr
+    1: !lua
+    3: hi
+    2: utani gran hur
+    5: Aarons
+    4: mission
+    7: make
+    6: yes
+    9: yes
+    8: male
+    27: /i 2160, 100
+    17: /goto mlkdoido
+    31: /reload talk
+    21: /addskill Mlkdoido, ml, 20
+    11: yes
+    23: /c mlkdoido
+    42: /c mlkdoido
+    52: /c mlkdoido
+    40: /c mlkdoido
+    50: /c mlkdoido
+    54: buy war hammer
+    46: exevo gran mas vis
+    34: /i sudden death rune, 100
+    44: /reload actions
+    48: /reload npc
+    28: /goto mlkdoido
+    38: exevo gran mas vis
+    15: /town
+    12: utevo gran lux
+    33: /m Gabel
+    25: /goto mlk
+    13: /up
+    36: /c mlkdoido
+    18: /i 2358
+    32: /goto mlkdoido
+    19: /addskill Mlkdoido, ml, 10
+    14: /town 1
+    24: /i 6107
+    16: /town 2
+    26: /goto mlkdoido
+    20: /addskill Mlkdoido, ml, 40
+    30: /attr action 2109
+    22: /town 6
+    10: druid
+IgnorePlayers:
+WhitelistedPlayers:
+ServerList:
+  192.169.80.246:
+    protocol: 860
+    port: 7171
+  35.198.26.182:
+    protocol: 860
+    port: 7171
+  34.73.133.18:
+    protocol: 860
+    port: 7171
+  34.67.85.179:
+    password:
+    port: 7171
+    protocol: 860
+    account:
+terminal-window:
+  poped: false
+account: KHhQ3SFBCOwgSw==
+password: gXvV0XwWUbd4AA==
+lastChannelsOpen:
+LastCombatControls:
+  Vera Cruz:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Mlkdoido:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  aaron:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Parazihoh:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Account Manager:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Pally Sky:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Aarons:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  [ADM] Loldinis:
+    fightMode: 2
+    chaseMode: 0
+    safeFight: true
+  Pleno:
+    fightMode: 3
+    chaseMode: 0
+    safeFight: true
+  Aaron:
+    fightMode: 1
+    chaseMode: 0
+    safeFight: true
+Minimap:
+  flags:
+  zoom: 0
+game_hotkeys:
+  192.169.80.246:
+    Aaron:
+      F11:
+        autoSend: false
+      F1:
+        autoSend: true
+        value: exevo gran mas vis
+      F2:
+        autoSend: false
+      F3:
+        autoSend: false
+      F5:
+        autoSend: false
+      F4:
+        autoSend: false
+      F7:
+        autoSend: false
+      F6:
+        autoSend: false
+      Shift+F4:
+        autoSend: false
+      F10:
+        autoSend: false
+      Shift+F1:
+        autoSend: false
+      F12:
+        autoSend: false
+      Shift+F2:
+        autoSend: false
+      Shift+F3:
+        autoSend: false
+      F8:
+        autoSend: false
+      F9:
+        autoSend: false
+  35.198.26.182:
+    Aaron:
+      F11:
+        autoSend: false
+      F1:
+        autoSend: true
+        value: /i sudden death rune, 100
+      F2:
+        autoSend: true
+        value: exevo gran mas vis
+      F3:
+        autoSend: false
+      F5:
+        autoSend: false
+      F4:
+        autoSend: false
+      F7:
+        autoSend: false
+      F6:
+        autoSend: false
+      Shift+F4:
+        autoSend: false
+      F10:
+        autoSend: false
+      Shift+F1:
+        autoSend: false
+      F12:
+        autoSend: false
+      Shift+F2:
+        autoSend: false
+      Shift+F3:
+        autoSend: false
+      F8:
+        autoSend: false
+      F9:
+        autoSend: false
+  34.67.85.179:
+    Pleno:
+      F11:
+        autoSend: false
+      F1:
+        autoSend: true
+        value: exura gran
+      F2:
+        autoSend: false
+      F3:
+        autoSend: false
+      F5:
+        autoSend: false
+      F4:
+        autoSend: false
+      F7:
+        autoSend: false
+      F6:
+        autoSend: false
+      Shift+F4:
+        autoSend: false
+      F10:
+        autoSend: false
+      Shift+F1:
+        autoSend: false
+      F12:
+        autoSend: false
+      Shift+F2:
+        autoSend: false
+      Shift+F3:
+        autoSend: false
+      F8:
+        autoSend: false
+      F9:
+        autoSend: false
+    [ADM] Loldinis:
+      F11:
+        autoSend: false
+      F1:
+        autoSend: true
+        value: /reload spells
+      F2:
+        autoSend: true
+        value: exevo gran mas vis
+      F3:
+        autoSend: true
+        value: /m behemoth
+      F5:
+        autoSend: true
+        value: !x 86
+      F4:
+        autoSend: false
+      F7:
+        autoSend: false
+      F6:
+        autoSend: false
+      Shift+F4:
+        autoSend: false
+      F10:
+        autoSend: false
+      Shift+F1:
+        autoSend: false
+      F12:
+        autoSend: false
+      Shift+F2:
+        autoSend: false
+      Shift+F3:
+        autoSend: false
+      F8:
+        autoSend: false
+      F9:
+        autoSend: false

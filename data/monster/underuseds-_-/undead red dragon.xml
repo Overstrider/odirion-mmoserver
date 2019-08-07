@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="undead red dragon" nameDescription="a undead red dragon" race="blood" experience="5000" speed="340" manacost="0">
+  <health now="15000" max="15000"/>
+  <look type="420" corpse="6312"/>
+  <targetchange interval="70" chance="5"/>
+  <flags>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag summonable="0"/>
+    <flag convinceable="0"/>
+    <flag illusionable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1250" max="-2500"/>
+    <attack name="poison" interval="2600" chance="20" range="7" radius="6" poison="30" min="-1000" max="-1900">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="ballpoison"/>
+    </attack>
+    <attack name="fire" interval="2900" chance="30" length="8" spread="3" min="-1800" max="-2300">
+      <attribute key="areaEffect" value="boomz"/>
+    </attack>
+    <attack name="fire" interval="2200" chance="45" target="1" min="-500" max="-950">
+      <attribute key="shootEffect" value="flamebolt"/>
+    </attack>
+  </attacks>
+  <defenses armor="60" defense="55">
+    <defense name="healing" interval="2200" chance="30" min="300" max="600">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="3000" chance="40" speedchange="670" duration="6000">
+      <attribute key="areaEffect" value="rednote"/>
+    </defense>
+  </defenses>
+  <elements>
+  </elements>
+  <immunities>
+  	<immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Get off of me or I'll kill you!" yell="1"/>
+    <voice sentence="FCHHHHH" yell="1"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="5651" chance="200" /> <!--crossbow de veneno -->
+            <item id="2514" chance="550" /> <!--mastermind shield -->
+            <item id="2432" chance="1500" /> <!--fire axe -->
+            <item id="5892" chance="300" /> <!--sunfire cape -->
+            <item id="2493" chance="60" /> <!--demon helmet -->
+
+    </item>
+    <item id="5653" chance="150" /> <!--flamming crossbow -->
+    <item id="2470" chance="500" /> <!--golden legs -->
+    <item id="2392" chance="1000" /> <!--fire sword -->
+    <item id="2520" chance="800" /> <!--demon shield -->
+    <item id="2795" countmax="7" chance="40000" /> <!--fire mushroom -->
+    <item id="2152" countmax="50" chance="32450" /> <!--plat coin -->
+</loot>
+</monster>

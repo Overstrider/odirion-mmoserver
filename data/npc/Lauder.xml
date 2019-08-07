@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lauder" script="lauder.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="566" head="52" body="14" legs="31" feet="52" addons="0"/>
+<parameters>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|. To be a Slayer Guild member, you must pay 5 Hunter Token. Say {enter guild} if you are interested.." />
+</parameters>
+</npc>

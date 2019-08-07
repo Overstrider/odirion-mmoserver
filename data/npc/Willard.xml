@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Willard" script="default.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="367" head="58" body="104" legs="19" feet="116" addons="0"/>
+  <parameters>
+  
+  	    <parameter key="message_greet" value="Greetings and Banor be with you, |PLAYERNAME|!"/>
+		<parameter key="message_farewell" value="Farewell."/>
+		
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;king;tibianus;army;ferumbras;excalibug;thais;tibia;carlin;edron;news;rumors;offer;weapon;ammunition;helmets;armors;shields;trousers;legs" />
+        <parameter key="keyword_reply1" value="I am Willard, the smith." />
+        <parameter key="keyword_reply2" value="I am the blacksmith of castle Bloodrock." />
+        <parameter key="keyword_reply3" value="Hail to the King! He's our benevolent protector." />
+        <parameter key="keyword_reply4" value="Hail to the King! He's our benevolent protector." />
+        <parameter key="keyword_reply5" value="I supply them with all they need." />
+        <parameter key="keyword_reply6" value="I would be honored if it's one of my blades that one day delivers him his punishment." />
+        <parameter key="keyword_reply7" value="Adventurers search for this blade all over the world. Even here." />
+        <parameter key="keyword_reply8" value="A fine city, but I love the peace of Edron more." />
+        <parameter key="keyword_reply9" value="It's my dream that one day the whole world will profit from the Thaian governance." />
+		<parameter key="keyword_reply10" value="If the king sees the time is right, he will certainly start a campaign to reclaim what belongs to Thais." />
+		<parameter key="keyword_reply11" value="Edron is a fine city to live in." />
+		<parameter key="keyword_reply12" value="Rumors are too sinister things that a true warrior would care for them." />
+		<parameter key="keyword_reply13" value="Rumors are too sinister things that a true warrior would care for them." />
+		<parameter key="keyword_reply14" value="My offers are weapons, ammunition, armors, helmets, legs, and shields." />
+		<parameter key="keyword_reply15" value="What do you need? I sell weapons, armors, helmets, and shields." />
+		<parameter key="keyword_reply16" value="I have hand axes, axes, barbarian axes, spears, maces, clerical maces, battle hammers, swords, rapiers, daggers, sabres, bows, and crossbows. What's your choice?" />
+        <parameter key="keyword_reply17" value="I have arrows for bows and bolts for crossbows. What do you want?" />
+		<parameter key="keyword_reply18" value="I am selling leather helmets and chain helmets. What do you want?" />
+		<parameter key="keyword_reply19" value="I am selling leather, chain, and brass armor. What do you need?" />
+		<parameter key="keyword_reply20" value="I am selling wooden shields, steel shields, and viking shields. What do you want?" />
+		<parameter key="keyword_reply21" value="I am selling chain legs. Do you want to buy any?" />
+		<parameter key="keyword_reply22" value="I am selling chain legs. Do you want to buy any?" />
+		
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="chain helmet,2458,52;sickle,2405,7;leather helmet,2461,12;chain legs,2648,80;chain armor,2464,200;brass armor,2465,450;leather armor,2467,35;steel shield,2509,240;wooden shield,2512,15;viking shield,2531,260;battle hammer,2417,350;clerical mace,2423,540;barbarian axe,2429,590;throwing star,2399,42;dagger,2379,5;rapier,2384,15;sabre,2385,35;mace,2398,90;crossbow,2455,500;bow,2456,400;spear,2389,10;arrow,2544,2;bolt,2543,3;hunter spear,6052,250;hunting arrow,6077,4"/>
+		<parameter key="shop_sellable" value="steel helmet,2457,190;double axe,2387,260;chain helmet,2458,17;iron helmet,2459,150;leather helmet,2461,4;chain legs,2648,25;plate armor,2463,400;chain armor,2464,70;brass armor,2465,150;leather armor,2467,12;steel shield,2509,80;wooden shield,2512,5;battle shield,2513,95;viking shield,2531,85;two handed sword,2377,450;sword,2376,25;spike sword,2383,240;short sword,2406,10;morning star,2394,90;battle hammer,2417,120;clerical mace,2423,170;battle axe,2378,80;barbarian axe,2429,185;hand axe,2380,4;dagger,2379,2;rapier,2384,5;sabre,2385,12;mace,2398,30;halberd,2381,400;crossbow,2455,120;bow,2456,100;spear,2389,3"/>
+
+    </parameters>
+</npc>
+

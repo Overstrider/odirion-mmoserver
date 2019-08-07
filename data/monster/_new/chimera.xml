@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chimera" nameDescription="a chimera" race="blood" experience="8400" speed="200" manacost="0">
+  <health now="11000" max="11000"/>
+  <look type="347" head="0" body="0" legs="0" feet="0" corpse="5947"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="80" attack="200"/>
+    <attack name="poison" interval="2200" chance="45" length="8" spread="3" min="-200" max="-670">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="fire" interval="2600" chance="40" length="8" spread="3" min="-400" max="-1200">
+      <attribute key="areaEffect" value="explosion"/>
+    </attack>
+  </attacks>
+  <defenses armor="65" defense="75">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="MEEEEH!" yell="1"/>
+    <voice sentence="GRRRRRHOORRR!" yell="1"/>
+    <voice sentence="ZSSSSH!" yell="1"/>
+    <voice sentence="FCHHHHHH!" yell="1"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"><!-- bag -->
+
+            <item id="2188" chance="400" /> <!--green spellwand -->
+            <item id="2173" chance="200" /><!-- AOL -->
+            <item id="5651" chance="100" /> <!--crossbow poison -->
+            <item id="2466" chance="400" /> <!--golden armor -->
+            <item id="2488" chance="1300" /> <!--crown legs -->
+            <item id="6089" chance="500"/> <!--Ancient Helmet -->
+            <item id="6053" chance="1300"/> <!-- Heavy Halbeerd -->
+            <item id="6090" chance="100"/> <!-- Ancient Sword -->
+
+    </item>
+    <item id="2176" chance="20000"/> <!--orb -->
+    <item id="2381" chance="10000" /> <!--halberd -->
+    <item id="2145" countmax="3" chance="10000" /> <!--small diamond -->
+    <item id="6088" chance="1000"/> <!--Hellforged Shield -->
+    <item id="2788" countmax="6" chance="20000" /> <!--red mushroom -->
+    <item id="2148" countmax="100" chance="47425" /> <!--gold coin -->
+</loot>
+</monster>

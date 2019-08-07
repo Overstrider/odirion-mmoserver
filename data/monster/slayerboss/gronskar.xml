@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gronskar" nameDescription="a gronskar" race="undead" experience="34650" speed="240" manacost="0">
+	<health now="27350" max="27350" />
+	<look type="491" corpse="7492" />
+	<targetchange interval="4000" chance="10" />
+	<strategy attack="100" defense="150"/>
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="100" />
+		<attack name="physical" interval="2000" chance="40" range="7" min="0" max="-781">
+			<attribute key="shootEffect" value="largerock" />
+		</attack>
+		<attack name="physical" interval="2000" chance="5" range="1" min="0" max="-1781">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="physical" interval="1000" chance="50" length="8" spread="0" min="0" max="-550">
+			<attribute key="areaEffect" value="assassin"/>
+		</attack>
+	</attacks>
+	<defenses armor="40" defense="40">
+		<defense name="healing" interval="2000" chance="10" min="200" max="650">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<immunities>
+		<immunity fire="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="3">
+    	<summon name="Obsidian Golem" interval="2000" chance="10" max="3"/>
+  	</summons>
+	<loot>
+		<item id="2148" countmax="100" chance="50000" /><!-- gold coin -->
+		<item id="2148" countmax="99" chance="40000" /><!-- gold coin -->
+		<item id="2671" countmax="2" chance="60000" /><!-- ham -->
+		<item id="2152" countmax="2" chance="55000" /><!-- platinum coin -->
+		<item id="2645" chance="5000" /><!-- steel boots -->
+		<item id="2558" chance="5250" /><!-- saw -->
+		<item id="2470" chance="30000" /><!-- golden legs -->
+		<item id="6092" chance="5000" /><!-- vanquisher -->
+		<item id="7151" chance="5000" /><!-- carlos martell hammer -->
+		<item id="7150" chance="500" /><!-- giant maul -->
+		<item id="7131" chance="400" /><!-- golden legs -->
+		<item id="7103" chance="400" /><!-- golden legs -->
+	</loot>
+</monster>

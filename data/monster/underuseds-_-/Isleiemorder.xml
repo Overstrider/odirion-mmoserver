@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Isleiemorder" nameDescription="a isleiemorder" race="blood" experience="4000" speed="280" manacost="0">
+  <health now="2500" max="2500"/>
+  <look type="355" head="0" body="0" legs="0" feet="0" corpse="6046"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="80" attack="80"/>
+    <attack name="physical" interval="2500" chance="30" range="7" min="-1" max="-450">
+      <attribute key="shootEffect" value="snowball"/>
+    </attack>
+  </attacks>
+  <defenses armor="35" defense="50">
+    <defense name="healing" interval="2000" chance="10" min="0" max="10">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Let's have a fight!"/>
+    <voice sentence="Welcome to my battleground."/>
+    <voice sentence="Have you seen princess Lumelia?"/>
+    <voice sentence="I will sing a tune at your grave."/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="2396" chance="900" /> <!--ice rapier -->
+            <item id="2475" chance="300" /> <!--warrior helmet -->
+            <item id="6078" chance="500" /> <!--light sword -->
+
+    </item>
+    <item id="6217" countmax="3" chance="2000" /> <!--frozen ham -->
+    <item id="6095" chance="100"/> <!--Frozen Helmet -->
+    <item id="2479" chance="200" /> <!--strange helmet -->
+    <item id="2146" countmax="2" chance="100" /> <!--small saphire -->
+    <item id="2145" chance="700" /> <!--small diamond -->
+    <item id="2144" chance="500" /> <!--black pearl -->
+    <item id="2177" chance="1000" /> <!--life crystal -->
+	<item id="2148" countmax="120" chance="52825" /> <!--gold coin -->
+</loot>
+</monster>

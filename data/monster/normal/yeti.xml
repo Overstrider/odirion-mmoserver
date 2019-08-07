@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Yeti" nameDescription="a yeti" race="blood" experience="2250" speed="240" manacost="0">
+  <health now="2700" max="2700"/>
+  <look type="110" corpse="3055"/>
+  <targetchange interval="4000" chance="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="50"/>
+    <attack name="energy" interval="2000" chance="10" range="7" radius="1" target="1" min="-120" max="-370">
+      <attribute key="shootEffect" value="snowball"/>
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+    <attack name="physical" interval="2000" chance="20" range="7" radius="4" target="1" min="-150" max="-370">
+      <attribute key="shootEffect" value="whirlwindsword"/>
+      <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="25">
+    <defense name="healing" interval="2000" chance="10" min="60" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="2000" chance="15" speedchange="420" duration="5000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+    <element deathPercent="65"/>
+    <element physicalPercent="-15"/>
+    <element firePercent="-15"/>
+    <element energyPercent="-15"/>
+    <element poisonPercent="-25"/>
+  </elements>
+  <immunities>
+    <immunity invisible="1"/>
+    <immunity lifedrain="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Yooodelaaahooohooo!"/>
+    <voice sentence="Yooodelaaaheeeheee!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance="50000"/><!-- gold coin -->
+    <item id="2148" countmax="55" chance="50000"/><!-- gold coin -->
+    <item id="2671" countmax="2" chance="29000"/><!-- ham -->
+    <item id="2547" countmax="4" chance="9090"/><!-- power bolt -->
+    <item id="2152" countmax="3" chance="2564"/><!-- platinum coin -->
+    <item id="2532" chance="990"/><!-- ancient shield -->
+    <item id="2477" chance="961"/><!-- knight legs -->
+    <item id="2195" chance="337"/><!-- boots of haste -->
+    <item id="2454" chance="95"/><!-- war axe -->
+  </loot>
+</monster>

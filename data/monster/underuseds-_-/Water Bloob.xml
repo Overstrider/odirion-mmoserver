@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Water Bloob" nameDescription="a water bloob" race="blood" experience="6050" speed="280" manacost="0">
+  <health now="4500" max="4500"/>
+  <look type="305" head="0" body="0" legs="0" feet="0" corpse="5738"/>
+  <targetchange interval="2000" chance="20"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="500"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="60" attack="100"/>
+    <attack name="lifedrain" interval="2700" chance="40" range="7" radius="4" min="-80" max="-420">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+    <attack name="lifedrain" interval="3000" chance="25" length="8" spread="0" min="-150" max="-610">
+      <attribute key="areaEffect" value="teleport"/>
+    </attack>
+    <attack name="energy" interval="2200" chance="60" range="7" radius="2" length="5" spread="0"  min="-30" max="-280">
+      <attribute key="areaEffect" value="whitenote"/>
+    </attack>
+  </attacks>
+  <defenses armor="50" defense="50"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="30">
+    <voice sentence="Protect yourself!"/>
+  </voices>
+  <loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="2457" chance="1925" /> <!--steel helmet :: Arm 6 -->
+            <item id="2208" chance="150" /> <!--axe ring -->
+            <item id="2150" chance="75" /> <!--small amethyst -->
+      <item id="2513" chance="6450" /> <!--battle shield :: Def 23 -->
+      <item id="2417" chance="4550" /> <!--battle hammer :: Def 14 :: Atk 24 -->
+
+    </item>
+    <item id="2787" countmax="2" chance="41800" /> <!--white mushroom -->
+    <item id="2643" chance="40025" /> <!--leather boots :: Arm 1 -->
+    <item id="2387" chance="1100" /> <!--double axe :: Def 12 :: Atk 35 -->
+    <item id="2483" chance="9600" /> <!--scale armor :: Arm 9 -->
+    <item id="2148" countmax="120" chance="51350" /><!-- gold coin -->
+</loot>
+</monster>

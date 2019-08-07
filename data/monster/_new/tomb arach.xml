@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tomb Arach" nameDescription="a tomb arach" race="venom" experience="840" speed="300" manacost="485">
+  <health now="1220" max="1220"/>
+  <look type="334" head="0" body="0" legs="0" feet="0" corpse="5920"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="70" attack="90"/>
+  </attacks>
+  <defenses armor="20" defense="20">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="3">
+    <summon name="Sand Spider" interval="2000" chance="56" max="3"/>
+  </summons>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="2457" chance="1525" /> <!--steel helmet :: Arm 6 -->
+            <item id="2510" chance="1850" /> <!--plate shield :: Def 17 -->
+            <item id="2169" chance="500" /> <!--time ring -->
+            <item id="2459" chance="16300" /> <!--iron helmet -->
+            <item id="2513" chance="11300" /> <!--battle shield -->
+
+    </item>
+    <item id="2478" chance="9650" /> <!--brass legs :: Arm 5 -->
+    <item id="2465" chance="8300" /> <!--brass armor :: Arm 5 -->
+    <item id="2148" countmax="100" chance="51975" /><!-- gold coin -->
+    <item id="2148" countmax="40" chance="51975" /> <!--gold coin -->
+</loot>
+</monster>

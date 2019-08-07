@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="undead blue dragon" nameDescription="a undead blue dragon" race="blood" experience="6000" speed="320">
+  <health now="14000" max="14000"/>
+  <look type="421" corpse="6310"/>
+  <targetchange interval="50" chance="5"/>
+  <flags>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag summonable="0"/>
+    <flag convinceable="0"/>
+    <flag illusionable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="2500"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-1000" max="-2300"/>
+    <attack name="death" interval="2700" chance="25" range="4" radius="6" min="-500" max="-800">
+      <attribute key="areaEffect" value="splashwater"/>
+    </attack>
+    <attack name="death" interval="3000" chance="30" radius="3" min="-350" max="-1550">
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+    <attack name="death" interval="2400" chance="40" range="3" target="1" min="-350" max="-900">
+      <attribute key="areaEffect" value="facedark"/>
+      <attribute key="shootEffect" value="blackbolt"/>
+    </attack>
+  </attacks>
+  <defenses armor="45" defense="60">
+    <defense name="healing" interval="2000" chance="40" min="300" max="450">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <elements>
+    <element physicalPercent="60"/>
+  </elements>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity poison="1"/>
+    <immunity invisible="1"/>
+    <immunity paralyze="1"/>
+    <immunity energy="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="I WILL EAT YOU ALIVE!" yell="1"/>
+    <voice sentence="FCHHHHH" yell="1"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="6098" chance="1200" /> <!--blizz armor -->
+            <item id="6095" chance="1100" /> <!--dblizz helmet -->
+            <item id="6099" chance="900" /> <!--blizzard shield -->
+            <item id="2392" chance="1500" /><!-- fire sword -->
+            <item id="2528" chance="2000" /> <!--tower shield -->
+
+    </item>
+    <item id="2146" countmax="10" chance="30000" /> <!--small saphires -->
+    <item id="1976" chance="50000" /> <!--gemmed book -->
+    <item id="2167" chance="20000" /> <!--energy ring -->
+    <item id="2547" countmax="10" chance="30000" /> <!--powerbolt -->
+    <item id="2796" countmax="10" chance="40000" /> <!--green mushroom -->
+    <item id="2152" countmax="50" chance="42450" /> <!--gold coin -->
+</loot>
+</monster>

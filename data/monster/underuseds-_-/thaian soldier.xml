@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Thaian Soldier" nameDescription="a thaian soldier" race="blood" experience="650" speed="390">
+  <health now="1100" max="1100"/>
+  <look type="425" head="95" body="95" legs="95" feet="95" corpse="6320"/>
+  <targetchange interval="2000" chance="3"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="280"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-100" max="-300"/>
+      <attack name="energy" interval="2300" chance="30" range="7" min="-50" max="-100">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+  </attacks>
+  <defenses armor="42" defense="60">
+    <defense name="healing" interval="2000" chance="20" min="30" max="80">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="We will clean the streets of Thais!" yell="1"/>
+    <voice sentence="Thaian army will be victorious!" yell="1"/>
+    <voice sentence="To the arms! Lightbringers!" yell="1"/>
+    <voice sentence="Hail King Tibianus!"/>
+    <voice sentence="Get out scum!"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="6336" chance="90" /> <!--thaian soldier armor -->
+            <item id="6335" chance="100" /> <!--thaian soldier shield -->
+            <item id="6078" chance="200" /> <!--light sword -->
+
+    </item>
+    <item id="2497" chance="400" /> <!--crusader helmet -->
+    <item id="2394" chance="12000" /> <!--morning star -->
+    <item id="2478" chance="10000" /> <!--brass legs -->
+    <item id="2666" countmax="2" chance="40000" /> <!--meat -->
+    <item id="2148" countmax="40" chance="17175" /> <!--gold coin -->
+</loot>
+</monster>

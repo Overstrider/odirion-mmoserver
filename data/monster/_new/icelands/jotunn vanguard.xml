@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="jotunn vanguard" nameDescription="a jotunn vanguard" race="undead" experience="3000" speed="210" manacost="0">
+  <health now="3200" max="3200"/>
+  <look type="356" head="0" body="0" legs="0" feet="0" corpse="6048"/>
+  <targetchange interval="4000" chance="10"/>
+  <strategy attack="80" defense="80"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="90" attack="80"/>
+    <attack name="physical" interval="2000" chance="20" range="7" target="1" min ="-0" max="-225">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+  </attacks>
+  <defenses armor="30" defense="30">
+    <defense name="healing" interval="2000" chance="10" min="150" max="200">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+	<loot>
+    <item id="2148" countmax="100" chance="100000"/> <!-- gold coin -->
+    <item id="2148" countmax="86" chance="100000"/> <!-- gold coin -->
+    <item id="2168" chance="2360"/> <!-- life ring -->
+    <item id="2149" countmax="2" chance="6290"/> <!-- small emerald -->
+    <item id="1987" chance="100000">bag
+      
+        <item id="2377" chance="2000"/>two handed sword :: Def 25 :: Atk 30
+        <item id="2391" chance="3000"/>war hammer :: Def 10 :: Atk 45
+        <item id="2393" chance="300" />giant sword :: Def 22 :: Atk 46
+        <item id="2645" chance="100" />steel boots :: Arm 3
+        <item id="2466" chance="90" />golden armor :: Arm 14
+      
+    </item>
+  </loot>
+</monster>

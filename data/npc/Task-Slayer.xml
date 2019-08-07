@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Herald [Slayer Guild]" script="slayer-task.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="607" head="41" body="94" legs="79" feet="76" addons="0"/>
+<parameters>
+    <parameter key="message_greet" value="Hi Stranger. This is a Slayers Guild, Are you interested in doing {task} to acquire glorious {deeds}?" />
+</parameters>
+</npc>

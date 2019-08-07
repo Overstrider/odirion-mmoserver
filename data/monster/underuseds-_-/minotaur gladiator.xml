@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Minotaur Gladiator" nameDescription="a minotaur gladiator" race="blood" experience="420" speed="190" manacost="550">
+  <health now="350" max="350"/>
+  <look type="330" head="0" body="0" legs="0" feet="0" corpse="5908"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="65" attack="70"/>
+  </attacks>
+  <defenses armor="65" defense="72"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="27">
+    <voice sentence="I will protect the secrets of my master!"/>
+    <voice sentence="Kaplar!"/>
+    <voice sentence="This isle will become ours alone"/>
+    <voice sentence="You already know too much."/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="2648" chance="10000" /> <!--chain legs -->
+            <item id="2458" chance="10000" /> <!--chain helmet -->
+            <item id="2044" chance="20000" /> <!--lamp -->
+            <item id="2464" chance="15000" /> <!--chain armor -->
+
+    </item>
+    <item id="2378" chance="10000" /> <!--Battle axe -->
+    <item id="2554" chance="20000" /> <!--shovel -->
+    <item id="2208" chance="100" /> <!--axe ring -->
+    <item id="6075" chance="1000"/> <!--Minotaur Hoof -->
+    <item id="2381" chance="7000" /> <!--halberd -->
+    <item id="2671" countmax="3" chance="20000" /> <!--ham -->
+	<item id="2148" countmax="30" chance="62625" /> <!--gold coin -->
+</loot>
+</monster>

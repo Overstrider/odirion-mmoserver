@@ -1,0 +1,11 @@
+<npc name="Wisebet" script="Explorer.lua" floorchange="0" walkinterval="1500" speed="100">
+	<health now="100" max="100"/>
+	<look type="407" head="50" body="0" legs="108" feet="112"/>
+	<parameters>
+<parameter key="message_greet" value="Greetings adventurer |PLAYERNAME|. What leads you to me?"/>
+<parameter key="message_placedinqueue" value="One moment please, |PLAYERNAME|."/>
+<parameter key="message_walkaway" value="Good bye and take care!"/>
+<parameter key="message_farewell" value="Good bye and take care of you!"/>
+<parameter key="message_idletimeout" value="Good bye and take care of you!"/>
+	</parameters>
+</npc>

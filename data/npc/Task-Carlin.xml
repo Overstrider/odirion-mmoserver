@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Walleria, Military Task" script="military-task.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="395" head="78" body="52" legs="64" feet="115" addons="0"/>
+<parameters>
+    <parameter key="message_greet" value="Hello |PLAYERNAME|. We are Carlin Military Guild, Are you interested in doing {task} for us in exchange for {reward}?" />
+</parameters>
+</npc>

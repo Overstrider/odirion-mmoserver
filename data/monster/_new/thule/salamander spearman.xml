@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- based in lizard legionnaire -->
+<monster name="Salamander Spearman" namedescription="a salamander spearman" race="blood" experience="1100" speed="230" manacost="0">
+	<health now="1400" max="1400"/>
+	<look type="443" corpse="6498"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="4"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="60"/>
+		<attack name="physical" interval="2000" chance="100" range="7" target="1" min="-0" max="-200">
+			<attribute key="shootEffect" value="spear"/>
+		</attack>
+	</attacks>
+	<defenses armor="25" defense="25"/>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Tssss!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="44000" /><!-- gold coin -->
+		<item id="2148" countmax="65" chance="54000" /><!-- gold coin -->
+		<item id="2145" countmax="2" chance="1001" /><!-- small diamond -->
+		<item id="2414" chance="2040" /><!-- Gladius -->
+		<item id="7146" chance="2900" /><!-- knight lance -->
+		<item id="2477" chance="2500" /><!-- knight legs -->
+		<item id="2476" chance="2500" /><!-- knight legs -->
+	</loot>
+</monster>

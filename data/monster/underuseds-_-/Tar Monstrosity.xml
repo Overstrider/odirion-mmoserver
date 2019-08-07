@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tar Monstrosity" nameDescription="a tar monstrosity" race="blood" experience="980" speed="280" manacost="0">
+  <health now="2000" max="2000"/>
+  <look type="350" head="0" body="0" legs="0" feet="0" corpse="5965"/>
+  <targetchange interval="2000" chance="20"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="70" attack="85"/>
+    <attack name="lifedrain" interval="2500" chance="45" target="1" min="-180" max="-410">
+    </attack>
+   <attack name="poisoncondition" interval="3000" chance="60" range="1" max="2000">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="65" defense="70">
+  </defenses>
+  <immunities>
+    <immunity physical="1"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Tar Monstrosity" interval="2000" chance="0" max="2"/>
+  </summons>
+  <voices interval="5000" chance="100">
+    <voice sentence="For..Suffocent!"/>
+    <voice sentence="..blob.."/>
+  </voices>
+  <loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+    <item id="2179" chance="300" /><!-- golden ring -->
+    <item id="2200" chance="700" /> <!--protection amulet -->
+    <item id="2532" chance="3000" /><!-- ancient shield -->
+    <item id="6094" chance="300"/> <!--Demonbone Boots -->
+
+    </item>
+    <item id="2268" chance="800" /> <!--SD -->
+    <item id="2479" chance="7000" /> <!--strange helmet -->
+  <item id="2148" countmax="35" chance="52825" /> <!--gold coin -->
+  <item id="2148" countmax="100" chance="32825" /> <!--gold coin -->
+</loot>
+</monster>

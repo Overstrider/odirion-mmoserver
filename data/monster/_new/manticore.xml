@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Manticore" nameDescription="a manticore" race="blood" experience="11400" speed="200" manacost="0">
+  <health now="8000" max="8000"/>
+  <look type="348" head="0" body="0" legs="0" feet="0" corpse="5956"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="60" attack="120"/>
+     <attack name="drunk" interval="2200" chance="85" range="6">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="2600" chance="45" length="9" spread="4" min="-80" max="-360">
+      <attribute key="areaEffect" value="explosion"/>
+    </attack>
+    <attack name="poison" interval="3000" chance="30" length="5" spread="4" min="-80" max="-990">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+  </attacks>
+  <defenses armor="27" defense="45">
+    <defense name="healing" interval="2000" chance="35" min="150" max="400">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="speed" interval="2000" chance="50" speedchange="700" duration="6000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="FCHHHHH" yell="1"/>
+    <voice sentence="HISSSS" yell="1"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="2409" chance="4000" /> <!--serpent sword -->
+            <item id="2430" chance="1000" /> <!--knite axe -->
+            <item id="2487" chance="900" /> <!--crown armor -->
+            <item id="2179" chance="600" /> <!--goldn ring -->
+            <item id="5656" chance="200" /> <!--poisoned bow -->
+            <item id="6092" chance="60"/> <!--Vanquisher Axe -->
+            <item id="6093" chance="90"/> <!--Ancient Legs -->
+            <item id="6088" chance="70"/> <!--Hellforged Shield -->
+            <item id="5774" chance="100"/> <!--Shadow legs -->
+
+    </item>
+    <item id="2381" chance="20025" /> <!--halberd -->
+    <item id="6025" chance="100"/> <!--Poisoned Sword -->
+    <item id="2208" chance="10000" /> <!--axe ring -->
+    <item id="2176" chance="7000"/> <!--orb -->
+    <item id="2796" chance="40000" /> <!--green mushroom -->
+    <item id="6091" chance="400"/> <!--Ancient Boots -->
+    <item id="2149" chance="22000" /> <!--Small Emerald -->
+    <item id="2148" countmax="100" chance="47425" /><!-- gold coin -->
+    <item id="2148" countmax="50" chance="27425" /> <!--gold coin -->
+</loot>
+</monster>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Tar Priest" nameDescription="a tar priest" race="blood" experience="4200" speed="280" manacost="0">
+  <health now="3300" max="3300"/>
+  <look type="346" head="0" body="0" legs="0" feet="0" corpse="5941"/>
+  <targetchange interval="2000" chance="20"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="40" attack="30"/>
+    <attack name="poison" interval="2500" chance="50" range="7" radius="4" min="-60" max="-210">
+      <attribute key="areaEffect" value="greenspark"/>
+    </attack>
+     <attack name="death" interval="3500" chance="15" range="7" radius="5" min="-60" max="-228">
+      <attribute key="areaEffect" value="mortarea"/>
+    </attack>
+    <attack name="manadrain" interval="2700" chance="35" range="7" min="-40" max="-100"/>
+  </attacks>
+  <defenses armor="35" defense="50">
+    <defense name="healing" interval="3000" chance="20" min="75" max="250">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <summons maxSummons="2">
+    <summon name="Tar Monstrosity" interval="2000" chance="35" max="2"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="I shall purge you in the name of Suffocent"/>
+    <voice sentence="Obey, my fearsome tarbeasts!"/>
+    <voice sentence="Allow the corruption to flow through your body!"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+    <item id="2123" chance="90" /> <!--ring of the sky -->
+    <item id="2195" chance="350" /> <!--BOH -->
+    <item id="2656" chance="500" /> <!--blue robe -->
+    <item id="2401" chance="1000" /> <!--Staff -->
+    <item id="6070" chance="1700"/> <!--Wand of light -->
+    <item id="6086" chance="400"/> <!--Demonbone Helmet -->
+    <item id="6087" chance="90"/> <!--Demonbone Armor -->
+    <item id="6004" chance="100"/> <!--Shadow armor -->
+
+    </item>
+    <item id="2123" chance="90" /> <!--ring of the sky -->
+    <item id="6085" countmax="8" chance="5200"/> <!--Venomshot Arrow -->
+    <item id="2195" chance="350" /> <!--BOH -->
+    <item id="2656" chance="700" /> <!--blue robe -->
+    <item id="2401" chance="1000" /> <!--Staff -->
+    <item id="2205" chance="1800" /> <!--life ring -->
+    <item id="2176" chance="9000"/> <!--orb -->
+    <item id="2489" chance="9000" /> <!--dark armor -->
+    <item id="2792" chance="20000" /> <!--dark mushroom -->
+    <item id="2327" chance="50000" /> <!--Ankh -->
+	<item id="2148" countmax="100" chance="52825" /> <!--gold coin -->
+  <item id="2148" countmax="95" chance="32825" /> <!--gold coin -->
+</loot>
+</monster>

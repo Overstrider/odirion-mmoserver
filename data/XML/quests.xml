@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quests>
+	<quest name="Tasks" startstorageid="3631" startstoragevalue="1">
+		<mission name="Trolls" storageid="852001" startvalue="0" endvalue="30" description="You have managed to kill |STATE|/|ENDSTATE| Trolls so far." />
+		<mission name="Goblins" storageid="852002" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Goblins so far." />
+		<mission name="Orcs" storageid="852016" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Orcs so far." />
+		<mission name="Rotworms" storageid="852003" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Rotworms so far." />
+		<mission name="Minotaurs" storageid="852015" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Minotaurs so far." />
+		<mission name="Stalkers" storageid="852005" startvalue="0" endvalue="30" description="You have managed to kill |STATE|/|ENDSTATE| Stalkers so far." />
+		<mission name="Skeletons" storageid="852005" startvalue="0" endvalue="80" description="You have managed to kill |STATE|/|ENDSTATE| Skeletons so far." />
+		<mission name="Fire Devils" storageid="852020" startvalue="0" endvalue="30" description="You have managed to kill |STATE|/|ENDSTATE| Fire Devils so far." />
+		<mission name="Amazons" storageid="852009" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Amazons so far." />
+		<mission name="Ghouls" storageid="852021" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Ghouls so far." />
+		<mission name="Larvas" storageid="852014" startvalue="0" endvalue="100" description="You have managed to kill |STATE|/|ENDSTATE| Larvas so far." />
+		<mission name="Mummys" storageid="852041" startvalue="0" endvalue="30" description="You have managed to kill |STATE|/|ENDSTATE| Mummys so far." />
+		<mission name="Cyclops" storageid="852031" startvalue="0" endvalue="80" description="You have managed to kill |STATE|/|ENDSTATE| Cyclops so far." />
+		<mission name="Crypt Shamblers" storageid="855040" startvalue="0" endvalue="50" description="You have managed to kill |STATE|/|ENDSTATE| Crypt Shamblers so far." />
+		<mission name="Dwarfs" storageid="852006" startvalue="0" endvalue="200" description="You have managed to kill |STATE|/|ENDSTATE| Dwarfs so far." />
+		<mission name="Scarabs" storageid="852018" startvalue="0" endvalue="100" description="You have managed to kill |STATE|/|ENDSTATE| Scarabs so far." />
+		<mission name="Carniphilas" storageid="852007" startvalue="0" endvalue="80" description="You have managed to kill |STATE|/|ENDSTATE| Carniphilas so far." />
+		<mission name="Humans" storageid="852013" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Humans so far." />
+		<mission name="Elfs" storageid="852008" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Elfs so far." />
+		<mission name="Gargoyles" storageid="852029" startvalue="0" endvalue="150" description="You have managed to kill |STATE|/|ENDSTATE| Gargoyles so far." />
+		<mission name="Stone Golems" storageid="852044" startvalue="0" endvalue="150" description="You have managed to kill |STATE|/|ENDSTATE| Stone Golems so far." />
+		<mission name="Tarantulas" storageid="852019" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Tarantulas so far." />
+		<mission name="Apes" storageid="852023" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Apes so far." />
+		<mission name="Lizards" storageid="852057" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Lizards so far." />
+		<mission name="Dwarf Guards" storageid="852035" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Dwarf Guards so far." />
+		<mission name="Beholders" storageid="852010" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Beholders so far." />
+		
+		<mission name="Minotaurs" storageid="852028" startvalue="0" endvalue="1000" description="You have managed to kill |STATE|/|ENDSTATE| Minotaurs so far." />
+		<mission name="Cyclops Warriors" storageid="852032" startvalue="0" endvalue="600" description="You have managed to kill |STATE|/|ENDSTATE| Cyclops Warriors so far." />
+		<mission name="Dwarf Guards" storageid="852036" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Dwarf Guards so far." />
+		<mission name="Beholders" storageid="852040" startvalue="0" endvalue="600" description="You have managed to kill |STATE|/|ENDSTATE| Beholders so far." />
+		<mission name="Elder Beholders" storageid="852045" startvalue="0" endvalue="600" description="You have managed to kill |STATE|/|ENDSTATE| Elder Beholders so far." />
+		<mission name="Demon Skeletons" storageid="852046" startvalue="0" endvalue="400" description="You have managed to kill |STATE|/|ENDSTATE| Demon Skeletons so far." />
+		<mission name="Bonebeasts" storageid="852053" startvalue="0" endvalue="400" description="You have managed to kill |STATE|/|ENDSTATE| Bonebeasts so far." />
+		<mission name="Necromancers" storageid="852039" startvalue="0" endvalue="400" description="You have managed to kill |STATE|/|ENDSTATE| Necromancers so far." />
+		<mission name="Vampires" storageid="852043" startvalue="0" endvalue="400" description="You have managed to kill |STATE|/|ENDSTATE| Vampires so far." />
+		<mission name="Orc Hards" storageid="852042" startvalue="0" endvalue="1000" description="You have managed to kill |STATE|/|ENDSTATE| Orc Hards so far." />
+		<mission name="Dragons" storageid="852033" startvalue="0" endvalue="1000" description="You have managed to kill |STATE|/|ENDSTATE| Dragons so far." />
+		<mission name="Ancient Scarabs" storageid="852024" startvalue="0" endvalue="800" description="You have managed to kill |STATE|/|ENDSTATE| Ancient Scarabs so far." />
+		<mission name="Lichs" storageid="852027" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Lichs so far." />
+		<mission name="Giant Spiders" storageid="852037" startvalue="0" endvalue="700" description="You have managed to kill |STATE|/|ENDSTATE| Giant Spiders so far." />
+		<mission name="Icegiants" storageid="852069" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Icegiants so far." />
+		<mission name="Icegiant Spellcasters" storageid="852070" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Icegiant Spellcasters so far." />
+		<mission name="Icegiant Guards" storageid="852071" startvalue="0" endvalue="200" description="You have managed to kill |STATE|/|ENDSTATE| Icegiant Guards so far." />
+		<mission name="Heros" storageid="852038" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Heros so far." />
+		<mission name="Black Knights" storageid="852030" startvalue="0" endvalue="600" description="You have managed to kill |STATE|/|ENDSTATE| Black Knights so far." />
+		<mission name="Banshees" storageid="852026" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Banshees so far." />
+		<mission name="Giant Ants" storageid="852054" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Giant Ants so far." />
+		<mission name="Quartz Golems" storageid="854057" startvalue="0" endvalue="200" description="You have managed to kill |STATE|/|ENDSTATE| Quartz Golems so far." />
+		<mission name="Dwarf Brewmasters" storageid="852054" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Dwarf Brewmasters so far." />
+		<mission name="Dwarf Warriors" storageid="856054" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Dwarf Warriors so far." />
+		<mission name="Dwarf Berserkers" storageid="857054" startvalue="0" endvalue="300" description="You have managed to kill |STATE|/|ENDSTATE| Dwarf Berserkers so far." />
+		
+		
+		<mission name="Dragon Lords" storageid="852034" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Dragon Lords so far." />				
+		<mission name="Behemoths" storageid="852047" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Behemoths so far." />				
+		<mission name="Warlocks" storageid="852048" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Warlocks so far." />				
+		<mission name="Demons" storageid="852049" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Demons so far." />				
+		<mission name="Hydras" storageid="852050" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Hydras so far." />				
+		<mission name="Serpent Spawns" storageid="852051" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Serpent Spawns so far." />				
+		<mission name="Icegiant Guards" storageid="852058" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Icegiant Guards so far." />				
+		<mission name="Yetis" storageid="852052" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Yetis so far." />				
+		<mission name="Obsidian Golems" storageid="852059" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Obsidian Golems so far." />				
+		<mission name="Polar Dragons" storageid="852060" startvalue="0" endvalue="500" description="You have managed to kill |STATE|/|ENDSTATE| Polar Dragons so far." />				
+		
+		<mission name="Dragon Lords" storageid="852072" startvalue="0" endvalue="5000" description="You have managed to kill |STATE|/|ENDSTATE| Dragon Lords so far." />				
+		<mission name="Behemoths" storageid="852073" startvalue="0" endvalue="6000" description="You have managed to kill |STATE|/|ENDSTATE| Behemoths so far." />				
+		<mission name="Warlocks" storageid="852074" startvalue="0" endvalue="4000" description="You have managed to kill |STATE|/|ENDSTATE| Warlocks so far." />				
+		<mission name="Demons" storageid="852075" startvalue="0" endvalue="6666" description="You have managed to kill |STATE|/|ENDSTATE| Demons so far." />				
+		<mission name="Hydras" storageid="852076" startvalue="0" endvalue="5000" description="You have managed to kill |STATE|/|ENDSTATE| Hydras so far." />				
+		<mission name="Serpent Spawns" storageid="852077" startvalue="0" endvalue="4000" description="You have managed to kill |STATE|/|ENDSTATE| Serpent Spawns so far." />				
+		<mission name="Icegiant Guards" storageid="852078" startvalue="0" endvalue="5000" description="You have managed to kill |STATE|/|ENDSTATE| Icegiant Guards so far." />				
+		<mission name="Yetis" storageid="852079" startvalue="0" endvalue="5000" description="You have managed to kill |STATE|/|ENDSTATE| Yetis so far." />				
+		<mission name="Obsidian Golems" storageid="852080" startvalue="0" endvalue="5000" description="You have managed to kill |STATE|/|ENDSTATE| Obsidian Golems so far." />				
+		<mission name="Polar Dragons" storageid="852081" startvalue="0" endvalue="4000" description="You have managed to kill |STATE|/|ENDSTATE| Polar Dragons so far." />				
+	</quest>
+</quests>

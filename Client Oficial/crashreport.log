@@ -1,0 +1,196 @@
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:26:25
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D415]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:27:28
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D415]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:28:25
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D415]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:28:53
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D5F0]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:30:34
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D5F0]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:31:13
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D5F0]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+
+== application crashed
+app name: Odirion Client
+app version: 0.6.6
+build compiler: gcc 4.8.1
+build date: Mar 14 2019
+build type: release
+build revision: 0 (devel)
+crash date: Apr 12 2019 21:32:50
+exception: Integer divide by zero (0xc0000094)
+exception address: 0x004ab254
+  backtrace:
+    0: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004AB254]
+    1: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004C6E77]
+    2: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004B8F67]
+    3: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004E2929]
+    4: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BB68]
+    5: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    6: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    7: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045C349]
+    8: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000045BBB0]
+    9: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000044FC84]
+    10: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x000000000046D5F0]
+    11: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe(alGetListeneriv+0x2713bb) [0x000000000077EA4B]
+    12: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x0000000000401250]
+    13: C:\Users\Emerson\Desktop\ClientOdirionOnline\Client Oficial\otclient.exe [0x00000000004012D5]
+    14: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xed) [0x0000000077D2662D]
+    15: C:\WINDOWS\SYSTEM32\ntdll.dll(RtlGetAppContainerNamedObjectPath+0xbd) [0x0000000077D265FD]
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lisa" script="facas.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="403" head="94" body="0" legs="0" feet="94" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="I welcome thee, |PLAYERNAME|! I suppose you are looking for a trade in skinning items!"/>
+		<parameter key="message_farewell" value="Goodbye and please bring more gold next time. I mean, it would be nice to see you again."/>
+		
+        <parameter key="message_sendtrade" value="Of course, just browse through my wares."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;help;offer;" />
+        <parameter key="keyword_reply1" value="I am Lisa and I will be serving you today." />
+        <parameter key="keyword_reply2" value="I am Lisa and I will be serving you today." />
+        <parameter key="keyword_reply3" value="The items they sell are all skinning" />
+        <parameter key="keyword_reply4" value="I buy skinning itens." />
+    </parameters>
+</npc>

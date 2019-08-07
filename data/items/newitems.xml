@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<item id="1" spriteid="2400" article="a" name="magic edited sword">
+	<attribute key="description" value="Arma editada." />
+	<attribute key="defense" value="45" />
+	<attribute key="attack" value="100" />
+	<attribute key="extradef" value="10" />
+	<attribute key="magiclevelpoints" value="1"/>
+	<attribute key="extraatk" value="10" />
+</item>
+<item id="2" spriteid="2472" article="a" name="master plate armor">
+	<attribute key="description" value="Armor editada." />
+	<attribute key="armor" value="19" />
+</item>
+<item id="3" spriteid="2400" article="a" name="trolling armor">
+	<attribute key="description" value="Trolling power." />
+	<attribute key="armor" value="100" />
+</item>
+<item id="4" spriteid="12396" name="Item editado">
+	<attribute key="description" value="Did it just twitch...? No, must have been an optical illusion."/>
+	<attribute key="weight" value="240"/>
+</item>
+</items>

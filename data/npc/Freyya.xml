@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Freyya" script="freyya.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="404" head="60" body="24" legs="38" feet="0" addons="0"/>
+<parameters>
+    <parameter key="message_greet" value="Hello Young Warrior welcome to city of Thule, my woman's intuition tells me that you need help with something important, or I'm wrong and you're just another curious warrior?"/>
+    <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+    <parameter key="message_walkaway" value="Good bye, |PLAYERNAME|, You rude." />
+</parameters>
+</npc>

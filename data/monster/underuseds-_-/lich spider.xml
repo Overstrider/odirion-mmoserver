@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lich Spider" nameDescription="a lich spider" race="venom" experience="600" speed="214" manacost="485">
+  <health now="1000" max="1000"/>
+  <look type="309" head="0" body="0" legs="0" feet="0" corpse="5744"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="65" attack="50"/>
+    <attack name="poisonfield" interval="2500" chance="17" range="5">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+    <attack name="lifedrain" interval="2700" chance="25" range="1" min="-15" max="-136"/>
+    <attack name="manadrain" interval="2900" chance="20" range="7" min="-1" max="-35"/>
+  </attacks>
+  <defenses armor="20" defense="20">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+        	<item id="2465" chance="9000" /> <!--brass armor -->
+        	<item id="2478" chance="11000" /> <!--brass legs -->
+            <item id="2463" chance="4000" /> <!--plate armor -->
+            <item id="2647" chance="6000" /> <!--plate legs -->
+            <item id="2436" chance="500" /> <!--skull staff -->
+
+    </item>
+    <item id="2169" chance="3000" /> <!--time ring -->
+    <item id="2214" chance="1000" /> <!--roh -->
+    <item id="2148" countmax="80" chance="31975" /> <!--gold coin -->
+</loot>
+</monster>

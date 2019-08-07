@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Denik" script="denik.lua" walkinterval="2000" access="3" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="376" head="0" body="0" legs="0" feet="0" addons="0"/>
+    <parameters>
+        
+        <parameter key="message_greet" value="I own this boat, traveller |PLAYERNAME|. Where are you going? say {back} for you to travel."/>
+		<parameter key="message_farewell" value="The dreaded island of ice heros."/>
+        
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="name;job;" />
+        <parameter key="keyword_reply1" value="Did you enjoy your hunt on Nibelor Island?" />
+        <parameter key="keyword_reply2" value="I'm a boat pilot and I can take you to back." />
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="" />
+        <parameter key="shop_sellable" value="" />
+    </parameters>
+</npc>

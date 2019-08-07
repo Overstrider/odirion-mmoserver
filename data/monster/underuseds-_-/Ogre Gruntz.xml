@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ogre Grunt" nameDescription="a ogre grunt" race="blood" experience="900" speed="250" manacost="590">
+  <health now="1450" max="1450"/>
+  <look type="326" head="0" body="0" legs="0" feet="0" corpse="5896"/>
+  <targetchange interval="2000" chance="10"/>
+  <strategy attack="60" defense="40"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="400"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="72" attack="120"/>
+     <attack name="physical" interval="2700" chance="40" range="7" min="-50" max="-200">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+  </attacks>
+  <defenses armor="12" defense="12">
+    <defense name="healing" interval="2000" chance="20" min="42" max="73">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="27">
+    <voice sentence="Karak! Karak! Karak!" yell="1"/>
+  </voices>
+	<loot>
+    <item id="1987" chance="100000"> <!--bag -->
+
+            <item id="2171" chance="500" /> <!--Platinium Amulet -->
+            <item id="2149" chance="500" /> <!--small emerald -->
+            <item id="2151" chance="600" /> <!--talon -->
+            <item id="2381" chance="1000" /> <!--Halberd -->
+            <item id="2429" chance="1300" /> <!--barbarian axe -->
+            <item id="2394" chance="10000" /><!-- morning star -->
+            <item id="2209" chance="10000" /> <!--club ring -->
+            <item id="2422" chance="20000" /> <!--iron hammer -->
+            <item id="2417" chance="20000" /> <!--battle hammer -->
+
+    </item>
+    <item id="2649" chance="40000" /> <!--leather legs -->
+    <item id="2398" chance="20000" /><!-- mace -->
+    <item id="6052" countmax="2" chance="20000"/> <!-- head hunter spear -->
+</loot>
+</monster>
